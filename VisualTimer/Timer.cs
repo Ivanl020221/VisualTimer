@@ -80,10 +80,10 @@ namespace VisualTimer
             OneTimerTick(this, new TimerTickEventArgs(new TimeSpan(0, 0, 0,Rasn)));
             if (Rasn == 0)
             {
-                this.Stop();
                 Tick(this, new EventArgs());
+                this.Stop();
             }
-            this.Res++;
+            this.Res+=1;
         }
     }
 }

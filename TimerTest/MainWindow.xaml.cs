@@ -21,7 +21,7 @@ namespace TimerTest
     /// </summary>
     public partial class MainWindow : Window
     {
-        Timer Timers = new Timer(new TimeSpan(0,0,0,5));
+        Timer Timers = new Timer(new TimeSpan(0,0,0,20,20));
 
         public MainWindow()
         {
