@@ -12,12 +12,12 @@ namespace VisualTimer
     /// Делагат еденицы времени таймера
     /// </summary>
     /// <param name="sender">объект таймера</param>
-    /// <param name="timerTickEventArgs">Аргумент еденицы времени</param>
-    public delegate void TimerTick(object sender, TimerTickEventArgs timerTickEventArgs);
+    /// <param name="e">Аргумент еденицы времени</param>
+    public delegate void TimerTick(object sender, TimerTickEventArgs e);
     /// <summary>
     /// Действие при окончании таймера
     /// </summary>
-    public delegate void TickFinaly(object sender, EventArgs eventArgs);
+    public delegate void TickFinaly(object sender, EventArgs e);
     /// <summary>
     /// Класс визуального таймера
     /// </summary>
