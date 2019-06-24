@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>VisualTimer</name>
+    </assembly>
+    <members>
+        <member name="T:VisualTimer.IntervalNullException">
+            <summary>
+            Ошибка отсудсвия интервала
+            </summary>
+        </member>
+        <member name="T:VisualTimer.TimerTick">
+            <summary>
+            Делагат еденицы времени таймера
+            </summary>
+            <param name="sender">объект таймера</param>
+            <param name="timerTickEventArgs">Аргумент еденицы времени</param>
+        </member>
+        <member name="T:VisualTimer.TickFinaly">
+            <summary>
+            Действие при окончании таймера
+            </summary>
+        </member>
+        <member name="T:VisualTimer.Timer">
+            <summary>
+            Класс визуального таймера
+            </summary>
+        </member>
+        <member name="E:VisualTimer.Timer.OneTimerTick">
+            <summary>
+            Вывод разницы времени
+            </summary>
+        </member>
+        <member name="E:VisualTimer.Timer.Tick">
+            <summary>
+            Действие при завершении таймера
+            </summary>
+            
+        </member>
+        <member name="P:VisualTimer.Timer.Interval">
+            <summary>
+            Время до завершения таймера
+            </summary>
+        </member>
+        <member name="M:VisualTimer.Timer.#ctor(System.TimeSpan)">
+            <summary>
+            Консруктор для иницализации визуального таймера
+            </summary>
+            <param name="interval">Время до завершения</param>
+        </member>
+        <member name="M:VisualTimer.Timer.#ctor">
+            <summary>
+            Консруктор для иницализации визуального таймера
+            </summary>
+        </member>
+        <member name="M:VisualTimer.Timer.Start">
+            <summary>
+            Запуск таймера
+            </summary>
+        </member>
+        <member name="T:VisualTimer.TimerTickEventArgs">
+            <summary>
+            Класс аругмента тика таймера
+            </summary>
+        </member>
+        <member name="P:VisualTimer.TimerTickEventArgs.Interval">
+            <summary>
+            Оставшееся время до окончания
+            </summary>
+        </member>
+    </members>
+</doc>

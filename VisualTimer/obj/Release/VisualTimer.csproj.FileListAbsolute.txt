@@ -1,0 +1,6 @@
+C:\Users\User\source\repos\VisualTimer\VisualTimer\bin\Release\VisualTimer.dll
+C:\Users\User\source\repos\VisualTimer\VisualTimer\bin\Release\VisualTimer.pdb
+C:\Users\User\source\repos\VisualTimer\VisualTimer\obj\Release\VisualTimer.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\VisualTimer\VisualTimer\obj\Release\VisualTimer.dll
+C:\Users\User\source\repos\VisualTimer\VisualTimer\obj\Release\VisualTimer.pdb
+C:\Users\User\source\repos\VisualTimer\VisualTimer\bin\Release\VisualTimer.xml
