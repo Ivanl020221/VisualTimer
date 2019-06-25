@@ -50,7 +50,7 @@ namespace VisualTimer
         public Timer(TimeSpan interval)
         {
             this.Interval = interval;
-            base.Interval = new TimeSpan(0, 0, 0,1);
+            base.Interval = new TimeSpan(0, 0, 0, 1);
             base.Tick += this.TickVisual;
         }
 
@@ -77,13 +77,14 @@ namespace VisualTimer
         private void TickVisual(object sender, EventArgs e)
         {
             int Rasn = Convert.ToInt32(Interval.Value.TotalSeconds - this.Res);
-            OneTimerTick(this, new TimerTickEventArgs(new TimeSpan(0, 0, 0,Rasn)));
+            if (!(OneTimerTick is null))
+                OneTimerTick(this, new TimerTickEventArgs(new TimeSpan(0, 0, 0, Rasn)));
             if (Rasn == 0)
             {
                 Tick(this, new EventArgs());
                 this.Stop();
             }
-            this.Res+=1;
+            this.Res += 1;
         }
     }
 }

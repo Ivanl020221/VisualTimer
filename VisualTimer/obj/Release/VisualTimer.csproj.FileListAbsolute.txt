@@ -4,3 +4,10 @@ C:\Users\User\source\repos\VisualTimer\VisualTimer\obj\Release\VisualTimer.cspro
 C:\Users\User\source\repos\VisualTimer\VisualTimer\obj\Release\VisualTimer.dll
 C:\Users\User\source\repos\VisualTimer\VisualTimer\obj\Release\VisualTimer.pdb
 C:\Users\User\source\repos\VisualTimer\VisualTimer\bin\Release\VisualTimer.xml
+C:\Users\WindowsMAC\Source\Repos\VisualTimer\VisualTimer\bin\Release\VisualTimer.xml
+C:\Users\WindowsMAC\Source\Repos\VisualTimer\VisualTimer\bin\Release\VisualTimer.dll
+C:\Users\WindowsMAC\Source\Repos\VisualTimer\VisualTimer\bin\Release\VisualTimer.pdb
+C:\Users\WindowsMAC\Source\Repos\VisualTimer\VisualTimer\obj\Release\VisualTimer.csproj.CoreCompileInputs.cache
+C:\Users\WindowsMAC\Source\Repos\VisualTimer\VisualTimer\obj\Release\VisualTimer.dll
+C:\Users\WindowsMAC\Source\Repos\VisualTimer\VisualTimer\obj\Release\VisualTimer.pdb
+C:\Users\WindowsMAC\Source\Repos\VisualTimer\VisualTimer\obj\Release\VisualTimer.csprojAssemblyReference.cache
